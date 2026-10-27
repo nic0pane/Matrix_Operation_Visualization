@@ -1,0 +1,91 @@
+THIS PROJECT IS TO BE ABLE TO VISUALIZE GRAPHICALLY MATRIXES AND THEIR OPERATIONS
+
+Tkinter	Buttons, inputs, windows	Start here
+NumPy	Matrix calculations	Use for checking your results
+Matplotlib	Graphs, vectors, coordinate grids	Add later
+Pygame	Custom interactive graphics and animation	Optional advanced stage
+SymPy	Symbolic calculations and exact algebra	Optional later
+
+
+
+ 1. Set up your project
+[X] Create a main.py file
+[ ] Learn basic Git usage 
+
+2. Learn Python fundamentals
+[ ] Learn imports and modules
+[ ] Handle invalid input with exceptions
+[X] Learn basic classes and objects
+
+3. Implement matrix basics
+[X] Represent matrices as nested lists
+[ ] Validate matrix dimensions and rectangular shape
+[X] Create a function to display a matrix in the terminal
+[X] Implement matrix addition
+[X] Implement matrix subtraction
+[ ] Implement scalar multiplication
+[X] Implement matrix transpose
+[X] Implement matrix multiplication
+[ ] Test incompatible dimensions and edge cases
+
+4. Implement linear algebra
+[X] Calculate the determinant of a 2×2 matrix
+[ ] Implement determinants for larger square matrices
+[ ] Learn and implement Gaussian elimination
+[ ] Implement matrix rank
+[ ] Implement matrix inverse
+[X] Detect singular matrices (determinant equals zero)
+[X] Implement elementary row operations
+[ ] Display intermediate calculation steps
+
+5. Build the graphical interface
+[ ] Learn basic Tkinter windows and widgets
+[X] Create the main application window
+[ ] Build a dynamic matrix input grid
+[ ] Allow the user to change row and column counts
+[ ] Add buttons for matrix operations
+[ ] Display results in a readable format
+[ ] Show helpful error messages
+[ ] Separate GUI code from matrix calculations
+
+6. Add visualizations
+[ ] Learn Cartesian coordinates and 2D vectors
+[X] Draw coordinate axes and a grid
+[X] Draw the unit square and basis vectors
+[ ] Apply a 2×2 matrix to points and vectors
+[ ] Display the transformed square and vectors
+[ ] Show the determinant and area scaling
+[ ] Handle reflections and determinant-zero transformations
+[X] Add zooming, panning, or animation if desired
+
+7. Test and polish
+[ ] Write unit tests for matrix operations
+[ ] Test zero matrices, identity matrices, and negative values
+[ ] Test singular and non-square matrices
+[ ] Compare selected results against NumPy
+[ ] Improve layout, labels, and keyboard navigation
+[ ] Add example matrices and a reset button
+[ ] Write a README explaining how to run the project
+[ ] Package or share the finished application
+
+
+
+matrix_visualizer/
+│
+├── main.py
+│
+├── matrix/
+│   ├── operations.py
+│   ├── determinant.py
+│   └── elimination.py
+│
+├── gui/
+│   ├── window.py
+│   └── matrix_input.py
+│
+├── visualization/
+│   ├── coordinate_grid.py
+│   └── transformations.py
+│
+└── tests/
+    └── test_operations.py
